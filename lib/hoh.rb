@@ -49,10 +49,11 @@ def naming_system
           :label=>"Class",
             :sub_category=>{
               :label=>"Order",
+                :sub_category=>{
                 :label=>"Family",
                   :sub_category=>{
                     :label=>"Genus",
                       :label=>"Species",
                         :sub_category=>nil
-                      }}}}}
+                      }}}}}}
     end
